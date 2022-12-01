@@ -5,7 +5,7 @@ ElvesTotal = []
 single_cals = 0
 run = 0
 top4 = 0
-for line in fileinput.input(files="/Users/josh9188/ac1.txt"):
+for line in fileinput.input(files="ac1.txt"):
     line = line.rstrip()
     if line == "":
         ElvesTotal.append(single_cals)
