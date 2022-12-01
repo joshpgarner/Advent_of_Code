@@ -25,7 +25,10 @@ for item in ElvesTotal:
     if run == 3:
         break
 
+#answer 1
+print(max(ElvesTotal))
 
+#answer 2 
 print (top4)
 
 
